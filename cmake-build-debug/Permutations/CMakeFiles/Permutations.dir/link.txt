@@ -1,0 +1,3 @@
+"D:\Softwares\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Permutations.dir/objects.a
+D:\Softwares\MinGW\bin\ar.exe cr CMakeFiles\Permutations.dir/objects.a @CMakeFiles\Permutations.dir\objects1.rsp
+D:\Softwares\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Permutations.dir/objects.a -Wl,--no-whole-archive  -o Permutations.exe -Wl,--out-implib,libPermutations.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Permutations.dir\linklibs.rsp

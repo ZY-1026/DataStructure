@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="InsertionSort"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\InsertionSort\;CMake Files\SelectionSort\;CMake Files\MergeSort\;CMake Files\QuickSort\;CMake Files\Recursive\;CMake Files\Permutations\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InsertionSort">
+				<Option output="D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/InsertionSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 InsertionSort"/>
+					<CompileFile command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InsertionSort/fast">
+				<Option output="D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/InsertionSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 InsertionSort/fast"/>
+					<CompileFile command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Workspace/Clion/DataStructure/InsertionSort/SelectionSort.h">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="D:/Workspace/Clion/DataStructure/InsertionSort/main.cpp">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="D:/Workspace/Clion/DataStructure/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Workspace/Clion/DataStructure/InsertionSort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\InsertionSort\"/>
+		</Unit>
+		<Unit filename="D:/Workspace/Clion/DataStructure/SelectionSort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SelectionSort\"/>
+		</Unit>
+		<Unit filename="D:/Workspace/Clion/DataStructure/MergeSort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MergeSort\"/>
+		</Unit>
+		<Unit filename="D:/Workspace/Clion/DataStructure/QuickSort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QuickSort\"/>
+		</Unit>
+		<Unit filename="D:/Workspace/Clion/DataStructure/Recursive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Recursive\"/>
+		</Unit>
+		<Unit filename="D:/Workspace/Clion/DataStructure/Permutations/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Permutations\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
