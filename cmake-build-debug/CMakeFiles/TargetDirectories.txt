@@ -16,6 +16,3 @@ D:/Workspace/Clion/DataStructure/cmake-build-debug/QuickSort/CMakeFiles/rebuild_
 D:/Workspace/Clion/DataStructure/cmake-build-debug/Recursive/CMakeFiles/Recursive.dir
 D:/Workspace/Clion/DataStructure/cmake-build-debug/Recursive/CMakeFiles/edit_cache.dir
 D:/Workspace/Clion/DataStructure/cmake-build-debug/Recursive/CMakeFiles/rebuild_cache.dir
-D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/CMakeFiles/edit_cache.dir
-D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/CMakeFiles/Permutations.dir
-D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/CMakeFiles/rebuild_cache.dir

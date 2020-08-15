@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Workspace/Clion/DataStructure/Permutations/main.cpp" "D:/Workspace/Clion/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Permutations/main.cpp.obj"
   "D:/Workspace/Clion/DataStructure/main.cpp" "D:/Workspace/Clion/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

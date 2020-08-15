@@ -39,7 +39,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/Workspace/Clion/DataStructure/cmake-build-debug/MergeSort/cmake_install.cmake")
   include("D:/Workspace/Clion/DataStructure/cmake-build-debug/QuickSort/cmake_install.cmake")
   include("D:/Workspace/Clion/DataStructure/cmake-build-debug/Recursive/cmake_install.cmake")
-  include("D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/cmake_install.cmake")
 
 endif()
 

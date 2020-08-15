@@ -34,7 +34,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../InsertionSort/CMakeLists.txt"
   "../MergeSort/CMakeLists.txt"
-  "../Permutations/CMakeLists.txt"
   "../QuickSort/CMakeLists.txt"
   "../Recursive/CMakeLists.txt"
   "../SelectionSort/CMakeLists.txt"
@@ -58,7 +57,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "MergeSort/CMakeFiles/CMakeDirectoryInformation.cmake"
   "QuickSort/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Recursive/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Permutations/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -69,5 +67,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "MergeSort/CMakeFiles/MergeSort.dir/DependInfo.cmake"
   "QuickSort/CMakeFiles/QuickSort.dir/DependInfo.cmake"
   "Recursive/CMakeFiles/Recursive.dir/DependInfo.cmake"
-  "Permutations/CMakeFiles/Permutations.dir/DependInfo.cmake"
   )

@@ -187,46 +187,6 @@ Recursive/fast:
 	$(MAKE) -f Recursive\CMakeFiles\Recursive.dir\build.make Recursive/CMakeFiles/Recursive.dir/build
 .PHONY : Recursive/fast
 
-#=============================================================================
-# Target rules for targets named Permutations
-
-# Build rule for target.
-Permutations: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Permutations
-.PHONY : Permutations
-
-# fast build rule for target.
-Permutations/fast:
-	$(MAKE) -f Permutations\CMakeFiles\Permutations.dir\build.make Permutations/CMakeFiles/Permutations.dir/build
-.PHONY : Permutations/fast
-
-Permutations/main.obj: Permutations/main.cpp.obj
-
-.PHONY : Permutations/main.obj
-
-# target to build an object file
-Permutations/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Permutations/main.cpp.obj
-.PHONY : Permutations/main.cpp.obj
-
-Permutations/main.i: Permutations/main.cpp.i
-
-.PHONY : Permutations/main.i
-
-# target to preprocess a source file
-Permutations/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Permutations/main.cpp.i
-.PHONY : Permutations/main.cpp.i
-
-Permutations/main.s: Permutations/main.cpp.s
-
-.PHONY : Permutations/main.s
-
-# target to generate assembly for a file
-Permutations/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Permutations/main.cpp.s
-.PHONY : Permutations/main.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -268,10 +228,6 @@ help:
 	@echo ... MergeSort
 	@echo ... QuickSort
 	@echo ... Recursive
-	@echo ... Permutations
-	@echo ... Permutations/main.obj
-	@echo ... Permutations/main.i
-	@echo ... Permutations/main.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

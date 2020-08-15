@@ -5,7 +5,7 @@
 		<Option title="InsertionSort"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\InsertionSort\;CMake Files\SelectionSort\;CMake Files\MergeSort\;CMake Files\QuickSort\;CMake Files\Recursive\;CMake Files\Permutations\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\InsertionSort\;CMake Files\SelectionSort\;CMake Files\MergeSort\;CMake Files\QuickSort\;CMake Files\Recursive\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/Workspace/Clion/DataStructure/cmake-build-debug/InsertionSort"/>
@@ -83,9 +83,6 @@
 		</Unit>
 		<Unit filename="D:/Workspace/Clion/DataStructure/Recursive/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Recursive\"/>
-		</Unit>
-		<Unit filename="D:/Workspace/Clion/DataStructure/Permutations/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Permutations\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

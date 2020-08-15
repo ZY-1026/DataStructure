@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Workspace/Clion/DataStructure/Permutations/main.cpp
+iostream
+-
+vector
+-
+
+D:/Workspace/Clion/DataStructure/main.cpp
+cstdio
+-
+cstring
+-
+iostream
+-
+

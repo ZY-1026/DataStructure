@@ -9,6 +9,5 @@ ADD_SUBDIRECTORY( SelectionSort)
 ADD_SUBDIRECTORY(MergeSort)
 ADD_SUBDIRECTORY( QuickSort)
 ADD_SUBDIRECTORY(Recursive)
-ADD_SUBDIRECTORY(Permutations)
 
-add_executable(DataStructure main.cpp Permutations/main.cpp)
+add_executable(DataStructure main.cpp )

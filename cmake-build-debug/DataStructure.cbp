@@ -5,7 +5,7 @@
 		<Option title="DataStructure"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\InsertionSort\;CMake Files\SelectionSort\;CMake Files\MergeSort\;CMake Files\QuickSort\;CMake Files\Recursive\;CMake Files\Permutations\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\InsertionSort\;CMake Files\SelectionSort\;CMake Files\MergeSort\;CMake Files\QuickSort\;CMake Files\Recursive\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/Workspace/Clion/DataStructure/cmake-build-debug"/>
@@ -289,48 +289,6 @@
 					<DistClean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/Recursive/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Permutations">
-				<Option output="D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Permutations.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Makefile&quot;  VERBOSE=1 Permutations"/>
-					<CompileFile command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Permutations/fast">
-				<Option output="D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Permutations.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
-					<Add directory="d:\softwares\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Makefile&quot;  VERBOSE=1 Permutations/fast"/>
-					<CompileFile command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Softwares/MinGW/bin/mingw32-make.exe -f &quot;D:/Workspace/Clion/DataStructure/cmake-build-debug/Permutations/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="D:/Workspace/Clion/DataStructure/InsertionSort/SelectionSort.h">
 			<Option target="InsertionSort"/>
@@ -349,10 +307,6 @@
 		</Unit>
 		<Unit filename="D:/Workspace/Clion/DataStructure/MergeSort/main.cpp">
 			<Option target="MergeSort"/>
-		</Unit>
-		<Unit filename="D:/Workspace/Clion/DataStructure/Permutations/main.cpp">
-			<Option target="DataStructure"/>
-			<Option target="Permutations"/>
 		</Unit>
 		<Unit filename="D:/Workspace/Clion/DataStructure/QuickSort/SortTestHelper.h">
 			<Option target="QuickSort"/>
@@ -392,9 +346,6 @@
 		</Unit>
 		<Unit filename="D:/Workspace/Clion/DataStructure/Recursive/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Recursive\"/>
-		</Unit>
-		<Unit filename="D:/Workspace/Clion/DataStructure/Permutations/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Permutations\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
